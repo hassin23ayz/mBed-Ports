@@ -1,0 +1,741 @@
+# depslib dependency file v1.0
+1389730916 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\common\busin.cpp
+	"BusIn.h"
+
+1389730916 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\api\busin.h
+	"platform.h"
+	"DigitalIn.h"
+
+1389730916 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\api\platform.h
+	"device.h"
+	"PinNames.h"
+	"PeripheralNames.h"
+	<cstddef>
+	<cstdlib>
+	<cstdio>
+	<cstring>
+
+1392037724 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\hal\target_stm\target_nucleo_f030r8\device.h
+	"objects.h"
+
+1391584122 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\hal\target_stm\target_nucleo_f030r8\objects.h
+	"cmsis.h"
+	"PortNames.h"
+	"PeripheralNames.h"
+	"PinNames.h"
+	"gpio_object.h"
+
+1391152470 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\cmsis\target_stm\target_nucleo_f030r8\cmsis.h
+	"stm32f0xx.h"
+	"cmsis_nvic.h"
+
+1391152470 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\cmsis\target_stm\target_nucleo_f030r8\stm32f0xx.h
+	"core_cm0.h"
+	"system_stm32f0xx.h"
+	<stdint.h>
+	"stm32f0xx_conf.h"
+
+1391152470 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\cmsis\core_cm0.h
+	<stdint.h>
+	<core_cmInstr.h>
+	<core_cmFunc.h>
+
+1391152470 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\cmsis\core_cminstr.h
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+
+1391152470 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\cmsis\core_cmfunc.h
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+
+1391152470 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\cmsis\target_stm\target_nucleo_f030r8\system_stm32f0xx.h
+
+1391152470 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\cmsis\target_stm\target_nucleo_f030r8\stm32f0xx_conf.h
+	"stm32f0xx_adc.h"
+	"stm32f0xx_can.h"
+	"stm32f0xx_cec.h"
+	"stm32f0xx_crc.h"
+	"stm32f0xx_crs.h"
+	"stm32f0xx_comp.h"
+	"stm32f0xx_dac.h"
+	"stm32f0xx_dbgmcu.h"
+	"stm32f0xx_dma.h"
+	"stm32f0xx_exti.h"
+	"stm32f0xx_flash.h"
+	"stm32f0xx_gpio.h"
+	"stm32f0xx_syscfg.h"
+	"stm32f0xx_i2c.h"
+	"stm32f0xx_iwdg.h"
+	"stm32f0xx_pwr.h"
+	"stm32f0xx_rcc.h"
+	"stm32f0xx_rtc.h"
+	"stm32f0xx_spi.h"
+	"stm32f0xx_tim.h"
+	"stm32f0xx_usart.h"
+	"stm32f0xx_wwdg.h"
+	"stm32f0xx_misc.h"
+
+1391152470 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\cmsis\target_stm\target_nucleo_f030r8\stm32f0xx_adc.h
+	"stm32f0xx.h"
+
+1391152470 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\cmsis\target_stm\target_nucleo_f030r8\stm32f0xx_can.h
+	"stm32f0xx.h"
+
+1391152470 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\cmsis\target_stm\target_nucleo_f030r8\stm32f0xx_cec.h
+	"stm32f0xx.h"
+
+1391152470 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\cmsis\target_stm\target_nucleo_f030r8\stm32f0xx_crc.h
+	"stm32f0xx.h"
+
+1391152470 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\cmsis\target_stm\target_nucleo_f030r8\stm32f0xx_crs.h
+	"stm32f0xx.h"
+
+1391152470 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\cmsis\target_stm\target_nucleo_f030r8\stm32f0xx_comp.h
+	"stm32f0xx.h"
+
+1391152470 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\cmsis\target_stm\target_nucleo_f030r8\stm32f0xx_dac.h
+	"stm32f0xx.h"
+
+1391152470 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\cmsis\target_stm\target_nucleo_f030r8\stm32f0xx_dbgmcu.h
+	"stm32f0xx.h"
+
+1391152470 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\cmsis\target_stm\target_nucleo_f030r8\stm32f0xx_dma.h
+	"stm32f0xx.h"
+
+1391152470 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\cmsis\target_stm\target_nucleo_f030r8\stm32f0xx_exti.h
+	"stm32f0xx.h"
+
+1391152470 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\cmsis\target_stm\target_nucleo_f030r8\stm32f0xx_flash.h
+	"stm32f0xx.h"
+
+1391152470 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\cmsis\target_stm\target_nucleo_f030r8\stm32f0xx_gpio.h
+	"stm32f0xx.h"
+
+1391152470 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\cmsis\target_stm\target_nucleo_f030r8\stm32f0xx_syscfg.h
+	"stm32f0xx.h"
+
+1391152470 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\cmsis\target_stm\target_nucleo_f030r8\stm32f0xx_i2c.h
+	"stm32f0xx.h"
+
+1391152470 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\cmsis\target_stm\target_nucleo_f030r8\stm32f0xx_iwdg.h
+	"stm32f0xx.h"
+
+1391152470 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\cmsis\target_stm\target_nucleo_f030r8\stm32f0xx_pwr.h
+	"stm32f0xx.h"
+
+1391152470 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\cmsis\target_stm\target_nucleo_f030r8\stm32f0xx_rcc.h
+	"stm32f0xx.h"
+
+1391152470 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\cmsis\target_stm\target_nucleo_f030r8\stm32f0xx_rtc.h
+	"stm32f0xx.h"
+
+1391152470 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\cmsis\target_stm\target_nucleo_f030r8\stm32f0xx_spi.h
+	"stm32f0xx.h"
+
+1391152470 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\cmsis\target_stm\target_nucleo_f030r8\stm32f0xx_tim.h
+	"stm32f0xx.h"
+
+1391152470 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\cmsis\target_stm\target_nucleo_f030r8\stm32f0xx_usart.h
+	"stm32f0xx.h"
+
+1391152470 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\cmsis\target_stm\target_nucleo_f030r8\stm32f0xx_wwdg.h
+	"stm32f0xx.h"
+
+1391152470 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\cmsis\target_stm\target_nucleo_f030r8\stm32f0xx_misc.h
+	"stm32f0xx.h"
+
+1391152470 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\cmsis\target_stm\target_nucleo_f030r8\cmsis_nvic.h
+	"cmsis.h"
+
+1391584122 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\hal\target_stm\target_nucleo_f030r8\portnames.h
+
+1391584122 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\hal\target_stm\target_nucleo_f030r8\peripheralnames.h
+	"cmsis.h"
+
+1391584122 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\hal\target_stm\target_nucleo_f030r8\pinnames.h
+	"cmsis.h"
+
+1391584122 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\hal\target_stm\target_nucleo_f030r8\gpio_object.h
+	"cmsis.h"
+	"PortNames.h"
+	"PeripheralNames.h"
+	"PinNames.h"
+
+1389730916 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\api\digitalin.h
+	"platform.h"
+	"gpio_api.h"
+
+1389730916 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\hal\gpio_api.h
+	"device.h"
+
+1389730916 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\common\businout.cpp
+	"BusInOut.h"
+
+1389730916 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\api\businout.h
+	"DigitalInOut.h"
+
+1389730916 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\api\digitalinout.h
+	"platform.h"
+	"gpio_api.h"
+
+1389730916 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\common\busout.cpp
+	"BusOut.h"
+
+1389730916 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\api\busout.h
+	"DigitalOut.h"
+
+1389730916 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\api\digitalout.h
+	"platform.h"
+	"gpio_api.h"
+
+1389730916 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\common\can.cpp
+	"CAN.h"
+	"cmsis.h"
+
+1389730916 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\api\can.h
+	"platform.h"
+	"can_api.h"
+	"can_helper.h"
+	"FunctionPointer.h"
+
+1389730916 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\hal\can_api.h
+	"device.h"
+	"PinNames.h"
+	"PeripheralNames.h"
+	"can_helper.h"
+
+1389730916 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\api\can_helper.h
+
+1389730916 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\api\functionpointer.h
+	<string.h>
+
+1389730916 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\common\callchain.cpp
+	"CallChain.h"
+	"cmsis.h"
+
+1389730916 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\api\callchain.h
+	"FunctionPointer.h"
+	<string.h>
+
+1389730916 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\common\ethernet.cpp
+	"Ethernet.h"
+	"ethernet_api.h"
+
+1389730916 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\api\ethernet.h
+	"platform.h"
+
+1389730916 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\hal\ethernet_api.h
+	"device.h"
+
+1389730916 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\common\filebase.cpp
+	"FileBase.h"
+
+1389730916 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\api\filebase.h
+	<stdio.h>
+	<sys/fcntl.h>
+	<sys/types.h>
+	<sys/syslimits.h>
+	"platform.h"
+
+1389730916 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\common\filelike.cpp
+	"FileLike.h"
+
+1389730916 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\api\filelike.h
+	"FileBase.h"
+	"FileHandle.h"
+
+1389730916 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\api\filehandle.h
+	<stdio.h>
+	<sys/types.h>
+
+1389730916 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\common\filepath.cpp
+	"FilePath.h"
+
+1389730916 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\api\filepath.h
+	"platform.h"
+	"FileSystemLike.h"
+	"FileLike.h"
+
+1389730916 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\api\filesystemlike.h
+	"platform.h"
+	"FileBase.h"
+	"FileHandle.h"
+	"DirHandle.h"
+
+1389730916 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\api\dirhandle.h
+	<sys/syslimits.h>
+	"FileHandle.h"
+
+1389730916 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\common\filesystemlike.cpp
+	"FileSystemLike.h"
+
+1389730916 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\common\functionpointer.cpp
+	"FunctionPointer.h"
+
+1389730916 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\common\i2c.cpp
+	"I2C.h"
+
+1389730916 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\api\i2c.h
+	"platform.h"
+	"i2c_api.h"
+
+1389730916 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\hal\i2c_api.h
+	"device.h"
+
+1389730916 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\common\i2cslave.cpp
+	"I2CSlave.h"
+
+1389730916 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\api\i2cslave.h
+	"platform.h"
+	"i2c_api.h"
+
+1389730916 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\common\interruptin.cpp
+	"InterruptIn.h"
+
+1389730916 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\api\interruptin.h
+	"platform.h"
+	"gpio_api.h"
+	"gpio_irq_api.h"
+	"FunctionPointer.h"
+
+1389730916 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\hal\gpio_irq_api.h
+	"device.h"
+
+1389730916 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\common\interruptmanager.cpp
+	"InterruptManager.h"
+	<string.h>
+
+1389730916 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\api\interruptmanager.h
+	"cmsis.h"
+	"CallChain.h"
+	<string.h>
+
+1389730916 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\common\localfilesystem.cpp
+	"LocalFileSystem.h"
+	"semihost_api.h"
+	<string.h>
+	<stdio.h>
+
+1389730916 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\api\localfilesystem.h
+	"platform.h"
+	"FileSystemLike.h"
+
+1389730916 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\api\semihost_api.h
+	"device.h"
+	"toolchain.h"
+
+1389730916 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\api\toolchain.h
+	<rt_sys.h>
+
+1389730916 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\common\rawserial.cpp
+	"RawSerial.h"
+	"wait_api.h"
+	<cstdarg>
+
+1389730916 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\api\rawserial.h
+	"platform.h"
+	"SerialBase.h"
+	"serial_api.h"
+
+1389730916 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\api\serialbase.h
+	"platform.h"
+	"Stream.h"
+	"FunctionPointer.h"
+	"serial_api.h"
+
+1389730916 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\api\stream.h
+	"platform.h"
+	"FileLike.h"
+
+1389730916 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\hal\serial_api.h
+	"device.h"
+
+1389730916 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\api\wait_api.h
+
+1389730916 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\common\spi.cpp
+	"SPI.h"
+
+1389730916 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\api\spi.h
+	"platform.h"
+	"spi_api.h"
+
+1389730916 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\hal\spi_api.h
+	"device.h"
+
+1389730916 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\common\spislave.cpp
+	"SPISlave.h"
+
+1389730916 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\api\spislave.h
+	"platform.h"
+	"spi_api.h"
+
+1389730916 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\common\serial.cpp
+	"Serial.h"
+	"wait_api.h"
+
+1389730916 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\api\serial.h
+	"platform.h"
+	"Stream.h"
+	"SerialBase.h"
+	"serial_api.h"
+
+1389730916 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\common\serialbase.cpp
+	"SerialBase.h"
+	"wait_api.h"
+
+1389730916 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\common\stream.cpp
+	"Stream.h"
+	<cstdarg>
+
+1389730916 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\common\ticker.cpp
+	"Ticker.h"
+	"TimerEvent.h"
+	"FunctionPointer.h"
+
+1389730916 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\api\ticker.h
+	"TimerEvent.h"
+	"FunctionPointer.h"
+
+1389730916 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\api\timerevent.h
+	"us_ticker_api.h"
+
+1389730916 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\hal\us_ticker_api.h
+	<stdint.h>
+
+1389730916 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\common\timeout.cpp
+	"Timeout.h"
+
+1389730916 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\api\timeout.h
+	"Ticker.h"
+
+1389730916 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\common\timer.cpp
+	"Timer.h"
+	"us_ticker_api.h"
+
+1389730916 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\api\timer.h
+	"platform.h"
+
+1389730916 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\common\timerevent.cpp
+	"TimerEvent.h"
+	"cmsis.h"
+	<stddef.h>
+
+1389730916 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\common\board.c
+	"gpio_api.h"
+	"wait_api.h"
+	"toolchain.h"
+
+1389730916 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\common\exit.c
+	"semihost_api.h"
+	"mbed_interface.h"
+
+1389730916 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\api\mbed_interface.h
+	"device.h"
+
+1389730916 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\common\mbed_interface.c
+	<stdio.h>
+	"mbed_interface.h"
+	"gpio_api.h"
+	"wait_api.h"
+	"semihost_api.h"
+	"error.h"
+	"toolchain.h"
+
+1389730916 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\api\error.h
+	<stdlib.h>
+	"device.h"
+	<stdio.h>
+
+1389730916 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\common\pinmap_common.c
+	"pinmap.h"
+	"error.h"
+
+1389730916 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\hal\pinmap.h
+	"PinNames.h"
+
+1389747517 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\common\retarget.cpp
+	"platform.h"
+	"FileHandle.h"
+	"FileSystemLike.h"
+	"FilePath.h"
+	"serial_api.h"
+	"toolchain.h"
+	<errno.h>
+	<rt_sys.h>
+	<yfuns.h>
+	<sys/stat.h>
+	<sys/unistd.h>
+	<sys/syslimits.h>
+	"error.h"
+
+1389730916 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\common\rtc_time.c
+	"rtc_api.h"
+	<time.h>
+	"rtc_time.h"
+	"us_ticker_api.h"
+
+1389730916 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\hal\rtc_api.h
+	"device.h"
+	<time.h>
+
+1389730916 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\api\rtc_time.h
+	<time.h>
+
+1389730916 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\common\semihost_api.c
+	"cmsis.h"
+	"semihost_api.h"
+	<stdint.h>
+	<string.h>
+
+1389730916 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\common\us_ticker_api.c
+	<stddef.h>
+	"us_ticker_api.h"
+	"cmsis.h"
+
+1389730916 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\common\wait_api.c
+	"wait_api.h"
+	"us_ticker_api.h"
+
+1392021640 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\cmsis\target_stm\target_nucleo_f030r8\toolchain_gcc_eb\startup_stm32f0xx.s
+
+1391152470 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\cmsis\target_stm\target_nucleo_f030r8\cmsis_nvic.c
+	"cmsis_nvic.h"
+
+1391152470 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\cmsis\target_stm\target_nucleo_f030r8\stm32f0xx_adc.c
+	"stm32f0xx_adc.h"
+	"stm32f0xx_rcc.h"
+
+1391152470 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\cmsis\target_stm\target_nucleo_f030r8\stm32f0xx_can.c
+	"stm32f0xx_can.h"
+	"stm32f0xx_rcc.h"
+
+1391152470 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\cmsis\target_stm\target_nucleo_f030r8\stm32f0xx_cec.c
+	"stm32f0xx_cec.h"
+	"stm32f0xx_rcc.h"
+
+1391152470 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\cmsis\target_stm\target_nucleo_f030r8\stm32f0xx_comp.c
+	"stm32f0xx_comp.h"
+
+1391152470 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\cmsis\target_stm\target_nucleo_f030r8\stm32f0xx_crc.c
+	"stm32f0xx_crc.h"
+
+1391152470 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\cmsis\target_stm\target_nucleo_f030r8\stm32f0xx_crs.c
+	"stm32f0xx_crs.h"
+	"stm32f0xx_rcc.h"
+
+1391152470 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\cmsis\target_stm\target_nucleo_f030r8\stm32f0xx_dac.c
+	"stm32f0xx_dac.h"
+
+1391152470 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\cmsis\target_stm\target_nucleo_f030r8\stm32f0xx_dbgmcu.c
+	"stm32f0xx_dbgmcu.h"
+
+1391152470 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\cmsis\target_stm\target_nucleo_f030r8\stm32f0xx_dma.c
+	"stm32f0xx_dma.h"
+
+1391152470 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\cmsis\target_stm\target_nucleo_f030r8\stm32f0xx_exti.c
+	"stm32f0xx_exti.h"
+
+1391152470 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\cmsis\target_stm\target_nucleo_f030r8\stm32f0xx_flash.c
+	"stm32f0xx_flash.h"
+
+1391152470 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\cmsis\target_stm\target_nucleo_f030r8\stm32f0xx_gpio.c
+	"stm32f0xx_gpio.h"
+	"stm32f0xx_rcc.h"
+
+1391152470 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\cmsis\target_stm\target_nucleo_f030r8\stm32f0xx_i2c.c
+	"stm32f0xx_i2c.h"
+	"stm32f0xx_rcc.h"
+
+1391152470 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\cmsis\target_stm\target_nucleo_f030r8\stm32f0xx_iwdg.c
+	"stm32f0xx_iwdg.h"
+
+1391152470 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\cmsis\target_stm\target_nucleo_f030r8\stm32f0xx_misc.c
+	"stm32f0xx_misc.h"
+
+1391152470 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\cmsis\target_stm\target_nucleo_f030r8\stm32f0xx_pwr.c
+	"stm32f0xx_pwr.h"
+	"stm32f0xx_rcc.h"
+
+1391152470 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\cmsis\target_stm\target_nucleo_f030r8\stm32f0xx_rcc.c
+	"stm32f0xx_rcc.h"
+
+1391152470 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\cmsis\target_stm\target_nucleo_f030r8\stm32f0xx_rtc.c
+	"stm32f0xx_rtc.h"
+
+1391152470 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\cmsis\target_stm\target_nucleo_f030r8\stm32f0xx_spi.c
+	"stm32f0xx_spi.h"
+	"stm32f0xx_rcc.h"
+
+1391152470 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\cmsis\target_stm\target_nucleo_f030r8\stm32f0xx_syscfg.c
+	"stm32f0xx_syscfg.h"
+
+1391152470 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\cmsis\target_stm\target_nucleo_f030r8\stm32f0xx_tim.c
+	"stm32f0xx_tim.h"
+	"stm32f0xx_rcc.h"
+
+1391152470 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\cmsis\target_stm\target_nucleo_f030r8\stm32f0xx_usart.c
+	"stm32f0xx_usart.h"
+	"stm32f0xx_rcc.h"
+
+1391152470 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\cmsis\target_stm\target_nucleo_f030r8\stm32f0xx_wwdg.c
+	"stm32f0xx_wwdg.h"
+	"stm32f0xx_rcc.h"
+
+1391152470 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\cmsis\target_stm\target_nucleo_f030r8\system_stm32f0xx.c
+	"stm32f0xx.h"
+
+1392026099 source:c:\_projects\emblocks\mbed-projects\stm32f0\src\system_stm32f0xx.c
+	"stm32f0xx.h"
+
+1392026099 c:\_projects\emblocks\mbed-projects\stm32f0\inc\stm32f0xx.h
+	"core_cm0.h"
+	"system_stm32f0xx.h"
+	<stdint.h>
+	"stm32f0xx_conf.h"
+
+1392026099 c:\_projects\emblocks\mbed-projects\stm32f0\inc\system_stm32f0xx.h
+
+1391584122 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\hal\target_stm\target_nucleo_f030r8\analogin_api.c
+	"analogin_api.h"
+	"wait_api.h"
+	"cmsis.h"
+	"pinmap.h"
+	"error.h"
+
+1389730916 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\hal\analogin_api.h
+	"device.h"
+
+1391584122 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\hal\target_stm\target_nucleo_f030r8\gpio_api.c
+	"gpio_api.h"
+	"pinmap.h"
+	"error.h"
+
+1391584122 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\hal\target_stm\target_nucleo_f030r8\gpio_irq_api.c
+	<stddef.h>
+	"cmsis.h"
+	"gpio_irq_api.h"
+	"pinmap.h"
+	"error.h"
+
+1391584122 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\hal\target_stm\target_nucleo_f030r8\i2c_api.c
+	"i2c_api.h"
+	"cmsis.h"
+	"pinmap.h"
+	"error.h"
+
+1391584122 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\hal\target_stm\target_nucleo_f030r8\pinmap.c
+	"pinmap.h"
+	"error.h"
+
+1391584122 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\hal\target_stm\target_nucleo_f030r8\port_api.c
+	"port_api.h"
+	"pinmap.h"
+	"gpio_api.h"
+	"error.h"
+
+1389730916 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\hal\port_api.h
+	"device.h"
+
+1391584122 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\hal\target_stm\target_nucleo_f030r8\pwmout_api.c
+	"pwmout_api.h"
+	"cmsis.h"
+	"pinmap.h"
+	"error.h"
+
+1389730916 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\hal\pwmout_api.h
+	"device.h"
+
+1391584122 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\hal\target_stm\target_nucleo_f030r8\rtc_api.c
+	"rtc_api.h"
+
+1391584122 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\hal\target_stm\target_nucleo_f030r8\serial_api.c
+	"serial_api.h"
+	"cmsis.h"
+	"pinmap.h"
+	"error.h"
+	<string.h>
+
+1391584122 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\hal\target_stm\target_nucleo_f030r8\sleep.c
+	"sleep_api.h"
+	"cmsis.h"
+
+1389730916 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\hal\sleep_api.h
+	"device.h"
+
+1391584122 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\hal\target_stm\target_nucleo_f030r8\spi_api.c
+	"spi_api.h"
+	<math.h>
+	"cmsis.h"
+	"pinmap.h"
+	"error.h"
+
+1391584122 source:c:\_projects\emblocks\mbed-projects\stm32f0\mbed\targets\hal\target_stm\target_nucleo_f030r8\us_ticker.c
+	<stddef.h>
+	"us_ticker_api.h"
+	"PeripheralNames.h"
+
+1392038183 source:c:\_projects\emblocks\mbed-projects\stm32f0\src\main.cpp
+	"mbed.h"
+
+1389730916 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\api\mbed.h
+	"platform.h"
+	<math.h>
+	<time.h>
+	"error.h"
+	"mbed_interface.h"
+	"DigitalIn.h"
+	"DigitalOut.h"
+	"DigitalInOut.h"
+	"BusIn.h"
+	"BusOut.h"
+	"BusInOut.h"
+	"PortIn.h"
+	"PortInOut.h"
+	"PortOut.h"
+	"AnalogIn.h"
+	"AnalogOut.h"
+	"PwmOut.h"
+	"Serial.h"
+	"SPI.h"
+	"SPISlave.h"
+	"I2C.h"
+	"I2CSlave.h"
+	"Ethernet.h"
+	"CAN.h"
+	"RawSerial.h"
+	"Timer.h"
+	"Ticker.h"
+	"Timeout.h"
+	"LocalFileSystem.h"
+	"InterruptIn.h"
+	"wait_api.h"
+	"sleep_api.h"
+	"rtc_time.h"
+
+1389730916 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\api\portin.h
+	"platform.h"
+	"port_api.h"
+
+1389730916 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\api\portinout.h
+	"platform.h"
+	"port_api.h"
+
+1389730916 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\api\portout.h
+	"platform.h"
+	"port_api.h"
+
+1389730916 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\api\analogin.h
+	"platform.h"
+	"analogin_api.h"
+
+1389730916 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\api\analogout.h
+	"platform.h"
+	"analogout_api.h"
+
+1389730916 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\hal\analogout_api.h
+	"device.h"
+
+1389730916 c:\_projects\emblocks\mbed-projects\stm32f0\mbed\api\pwmout.h
+	"platform.h"
+	"pwmout_api.h"
+

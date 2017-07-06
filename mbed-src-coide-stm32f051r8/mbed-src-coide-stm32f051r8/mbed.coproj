@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Project version="2G - 1.7.6" name="mbed">
+  <Target name="mbed" isCurrent="1">
+    <Device manufacturerId="9" manufacturerName="ST" chipId="249" chipName="STM32F051R8" boardId="48" boardName="32F0308DISCOVERY"/>
+    <BuildOption>
+      <Compile>
+        <Option name="OptimizationLevel" value="1"/>
+        <Option name="UseFPU" value="0"/>
+        <Option name="UserEditCompiler" value="-fno-common; -fmessage-length=0; -Wall; -fno-strict-aliasing; -fno-exceptions; -ffunction-sections; -fdata-sections;"/>
+        <Option name="SupportCPlusplus" value="0"/>
+        <Includepaths>
+          <Includepath path="."/>
+        </Includepaths>
+        <DefinedSymbols>
+          <Define name="__ASSEMBLY__"/>
+          <Define name="TARGET_NUCLEO_F030R8"/>
+          <Define name="TARGET_M0"/>
+          <Define name="TARGET_STM"/>
+          <Define name="TARGET_STM32F0"/>
+          <Define name="TARGET_STM32F030R8"/>
+          <Define name="TOOLCHAIN_GCC"/>
+          <Define name="TOOLCHAIN_GCC_ARM"/>
+          <Define name="ARM_MATH_CM0"/>
+          <Define name="MBED_BUILD_TIMESTAMP=1398671796.69"/>
+          <Define name="__MBED__=1"/>
+        </DefinedSymbols>
+      </Compile>
+      <Link useDefault="0">
+        <Option name="DiscardUnusedSection" value="0"/>
+        <Option name="UserEditLinkder" value=""/>
+        <Option name="UseMemoryLayout" value="0"/>
+        <Option name="nostartfiles" value="0"/>
+        <Option name="LTO" value="0"/>
+        <Option name="IsNewStartupCode" value="1"/>
+        <Option name="Library" value="Not use C Library"/>
+        <Option name="UserEditLinker" value="--specs=nano.specs; -u _printf_float; -u _scanf_float; "/>
+        <LinkedLibraries>
+          <Libset dir="" libs="stdc++"/>
+          <Libset dir="" libs="supc++"/>
+          <Libset dir="" libs="m"/>
+          <Libset dir="" libs="c"/>
+          <Libset dir="" libs="gcc"/>
+          <Libset dir="" libs="nosys"/>
+        </LinkedLibraries>
+        <MemoryAreas debugInFlashNotRAM="1">
+          <Memory name="IROM1" type="ReadOnly" size="0x00010000" startValue="0x08000000"/>
+          <Memory name="IRAM1" type="ReadWrite" size="0x00001800" startValue="0x20000000"/>
+          <Memory name="IROM2" type="ReadOnly" size="" startValue=""/>
+          <Memory name="IRAM2" type="ReadWrite" size="" startValue=""/>
+        </MemoryAreas>
+        <LocateLinkFile path="targets/cmsis/target_disco_f051r8/toolchain_gcc_arm/stm32f0xx.ld" type="0"/>
+      </Link>
+      <Output>
+        <Option name="OutputFileType" value="0"/>
+        <Option name="Path" value="./"/>
+        <Option name="Name" value="mbed"/>
+        <Option name="HEX" value="1"/>
+        <Option name="BIN" value="1"/>
+      </Output>
+      <User>
+        <UserRun name="Run#1" type="Before" checked="0" value=""/>
+        <UserRun name="Run#1" type="After" checked="0" value=""/>
+      </User>
+    </BuildOption>
+    <DebugOption>
+      <Option name="org.coocox.codebugger.gdbjtag.core.adapter" value="ST-Link"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.debugMode" value="SWD"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.clockDiv" value="1M"/>
+      <Option name="org.coocox.codebugger.gdbjtag.corerunToMain" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.jlinkgdbserver" value=""/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.userDefineGDBScript" value=""/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.targetEndianess" value="0"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.jlinkResetMode" value="Type 0: Normal"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.resetMode" value="SYSRESETREQ"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ifSemihost" value="0"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ifCacheRom" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ipAddress" value="127.0.0.1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.portNumber" value="2009"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.autoDownload" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.verify" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.downloadFuction" value="Erase Effected"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.defaultAlgorithm" value="STM32F05xx_64.elf"/>
+    </DebugOption>
+    <ExcludeFile/>
+  </Target>
+  <Components path="./">
+    <Component id="46" name="M0 Cmsis Core" path="" type="2"/>
+    <Component id="418" name="CMSIS BOOT" path="" type="2"/>
+    <Component id="436" name="TIM" path="" type="2"/>
+    <Component id="437" name="USART" path="" type="2"/>
+  </Components>
+  <Files>
+    <File name="mbed-lib/api/PwmOut.h" path="api/PwmOut.h" type="1"/>
+    <File name="mbed-lib/target/cmsis/stm32f0xx_wwdg.h" path="targets/cmsis/TARGET_DISCO_F051R8/stm32f0xx_wwdg.h" type="1"/>
+    <File name="mbed-lib/api/BusIn.h" path="api/BusIn.h" type="1"/>
+    <File name="mbed-lib/target/cmsis/system_stm32f0xx.c" path="targets/cmsis/TARGET_DISCO_F051R8/system_stm32f0xx.c" type="1"/>
+    <File name="mbed-lib/api/BusInOut.h" path="api/BusInOut.h" type="1"/>
+    <File name="mbed-lib/target/cmsis/stm32f0xx_crs.c" path="targets/cmsis/TARGET_DISCO_F051R8/stm32f0xx_crs.c" type="1"/>
+    <File name="mbed-lib/common/FileLike.cpp" path="common/FileLike.cpp" type="1"/>
+    <File name="mbed-lib/api/FileBase.h" path="api/FileBase.h" type="1"/>
+    <File name="mbed-lib/target/cmsis/stm32f0xx_rcc.h" path="targets/cmsis/TARGET_DISCO_F051R8/stm32f0xx_rcc.h" type="1"/>
+    <File name="mbed-lib/common/FunctionPointer.cpp" path="common/FunctionPointer.cpp" type="1"/>
+    <File name="mbed-lib/target/cmsis/stm32f0xx_spi.c" path="targets/cmsis/TARGET_DISCO_F051R8/stm32f0xx_spi.c" type="1"/>
+    <File name="cmsis_core/core_cm0.h" path="targets/cmsis/core_cm0.h" type="1"/>
+    <File name="mbed-lib/target/cmsis/stm32f0xx_usart.h" path="targets/cmsis/TARGET_DISCO_F051R8/stm32f0xx_usart.h" type="1"/>
+    <File name="mbed-lib/hal/i2c_api.h" path="hal/i2c_api.h" type="1"/>
+    <File name="mbed-lib/common/CallChain.cpp" path="common/CallChain.cpp" type="1"/>
+    <File name="mbed-lib/hal/serial_api.h" path="hal/serial_api.h" type="1"/>
+    <File name="mbed-lib/target/cmsis/stm32f0xx_rcc.c" path="targets/cmsis/TARGET_DISCO_F051R8/stm32f0xx_rcc.c" type="1"/>
+    <File name="mbed-lib/target/hal/pinmap.c" path="targets/hal/TARGET_STM/TARGET_DISCO_F051R8/pinmap.c" type="1"/>
+    <File name="mbed-lib/api/PortOut.h" path="api/PortOut.h" type="1"/>
+    <File name="mbed-lib/hal/sleep_api.h" path="hal/sleep_api.h" type="1"/>
+    <File name="mbed-lib/target/cmsis" path="" type="2"/>
+    <File name="mbed-lib/api" path="" type="2"/>
+    <File name="mbed-lib/api/DirHandle.h" path="api/DirHandle.h" type="1"/>
+    <File name="mbed-lib/target/cmsis/stm32f0xx_iwdg.h" path="targets/cmsis/TARGET_DISCO_F051R8/stm32f0xx_iwdg.h" type="1"/>
+    <File name="mbed-lib/common/I2CSlave.cpp" path="common/I2CSlave.cpp" type="1"/>
+    <File name="mbed-lib/api/I2C.h" path="api/I2C.h" type="1"/>
+    <File name="mbed-lib/common/exit.c" path="common/exit.c" type="1"/>
+    <File name="mbed-lib/api/wait_api.h" path="api/wait_api.h" type="1"/>
+    <File name="mbed-lib/target/cmsis/stm32f0xx_iwdg.c" path="targets/cmsis/TARGET_DISCO_F051R8/stm32f0xx_iwdg.c" type="1"/>
+    <File name="mbed-lib/target/cmsis/stm32f0xx_syscfg.c" path="targets/cmsis/TARGET_DISCO_F051R8/stm32f0xx_syscfg.c" type="1"/>
+    <File name="mbed-lib/target/cmsis/stm32f0xx_rtc.h" path="targets/cmsis/TARGET_DISCO_F051R8/stm32f0xx_rtc.h" type="1"/>
+    <File name="mbed-lib/common/BusIn.cpp" path="common/BusIn.cpp" type="1"/>
+    <File name="mbed-lib/hal/can_api.h" path="hal/can_api.h" type="1"/>
+    <File name="mbed-lib/api/toolchain.h" path="api/toolchain.h" type="1"/>
+    <File name="mbed-lib/api/TimerEvent.h" path="api/TimerEvent.h" type="1"/>
+    <File name="mbed-lib/target/hal/gpio_api.c" path="targets/hal/TARGET_STM/TARGET_DISCO_F051R8/gpio_api.c" type="1"/>
+    <File name="mbed-lib/target/hal/PeripheralNames.h" path="targets/hal/TARGET_STM/TARGET_DISCO_F051R8/PeripheralNames.h" type="1"/>
+    <File name="mbed-lib/target/cmsis/stm32f0xx_usart.c" path="targets/cmsis/TARGET_DISCO_F051R8/stm32f0xx_usart.c" type="1"/>
+    <File name="mbed-lib/common/retarget.cpp" path="common/retarget.cpp" type="1"/>
+    <File name="mbed-lib/common/SPISlave.cpp" path="common/SPISlave.cpp" type="1"/>
+    <File name="mbed-lib/target/hal/PortNames.h" path="targets/hal/TARGET_STM/TARGET_DISCO_F051R8/PortNames.h" type="1"/>
+    <File name="mbed-lib/target/cmsis/stm32f0xx_wwdg.c" path="targets/cmsis/TARGET_DISCO_F051R8/stm32f0xx_wwdg.c" type="1"/>
+    <File name="mbed-lib/target/cmsis/stm32f0xx_can.h" path="targets/cmsis/TARGET_DISCO_F051R8/stm32f0xx_can.h" type="1"/>
+    <File name="mbed-lib/common/Serial.cpp" path="common/Serial.cpp" type="1"/>
+    <File name="mbed-lib/target/cmsis/stm32f0xx_crs.h" path="targets/cmsis/TARGET_DISCO_F051R8/stm32f0xx_crs.h" type="1"/>
+    <File name="mbed-lib/api/PortInOut.h" path="api/PortInOut.h" type="1"/>
+    <File name="mbed-lib/target/hal/analogin_api.c" path="targets/hal/TARGET_STM/TARGET_DISCO_F051R8/analogin_api.c" type="1"/>
+    <File name="mbed-lib/common/InterruptIn.cpp" path="common/InterruptIn.cpp" type="1"/>
+    <File name="mbed-lib/common/BusOut.cpp" path="common/BusOut.cpp" type="1"/>
+    <File name="mbed-lib/common/CAN.cpp" path="common/CAN.cpp" type="1"/>
+    <File name="mbed-lib/common/SerialBase.cpp" path="common/SerialBase.cpp" type="1"/>
+    <File name="mbed-lib/target/cmsis/stm32f0xx_rtc.c" path="targets/cmsis/TARGET_DISCO_F051R8/stm32f0xx_rtc.c" type="1"/>
+    <File name="mbed-lib/target/cmsis/stm32f0xx_can.c" path="targets/cmsis/TARGET_DISCO_F051R8/stm32f0xx_can.c" type="1"/>
+    <File name="mbed-lib/hal/gpio_irq_api.h" path="hal/gpio_irq_api.h" type="1"/>
+    <File name="mbed-lib/api/BusOut.h" path="api/BusOut.h" type="1"/>
+    <File name="mbed-lib/api/FileLike.h" path="api/FileLike.h" type="1"/>
+    <File name="mbed-lib/common/Ticker.cpp" path="common/Ticker.cpp" type="1"/>
+    <File name="mbed-lib/api/Ticker.h" path="api/Ticker.h" type="1"/>
+    <File name="mbed-lib/common/RawSerial.cpp" path="common/RawSerial.cpp" type="1"/>
+    <File name="mbed-lib/target/cmsis/stm32f0xx_crc.h" path="targets/cmsis/TARGET_DISCO_F051R8/stm32f0xx_crc.h" type="1"/>
+    <File name="cmsis_boot" path="" type="2"/>
+    <File name="mbed-lib/api/SoftSerial.h" path="api/SoftSerial.h" type="1"/>
+    <File name="mbed-lib/hal/gpio_api.h" path="hal/gpio_api.h" type="1"/>
+    <File name="mbed-lib/target/cmsis/cmsis_nvic.c" path="targets/cmsis/TARGET_DISCO_F051R8/cmsis_nvic.c" type="1"/>
+    <File name="cmsis_core" path="" type="2"/>
+    <File name="mbed-lib/target/cmsis/stm32f0xx_misc.c" path="targets/cmsis/TARGET_DISCO_F051R8/stm32f0xx_misc.c" type="1"/>
+    <File name="mbed-lib/common/SPI.cpp" path="common/SPI.cpp" type="1"/>
+    <File name="mbed-lib/api/can_helper.h" path="api/can_helper.h" type="1"/>
+    <File name="mbed-lib/target/cmsis/stm32f0xx_pwr.h" path="targets/cmsis/TARGET_DISCO_F051R8/stm32f0xx_pwr.h" type="1"/>
+    <File name="mbed-lib/hal/port_api.h" path="hal/port_api.h" type="1"/>
+    <File name="mbed-lib/target/hal/device.h" path="targets/hal/TARGET_STM/TARGET_DISCO_F051R8/device.h" type="1"/>
+    <File name="mbed-lib/target/cmsis/cmsis_nvic.h" path="targets/cmsis/TARGET_DISCO_F051R8/cmsis_nvic.h" type="1"/>
+    <File name="mbed-lib/target/hal/port_api.c" path="targets/hal/TARGET_STM/TARGET_DISCO_F051R8/port_api.c" type="1"/>
+    <File name="mbed-lib/target/cmsis/stm32f0xx_misc.h" path="targets/cmsis/TARGET_DISCO_F051R8/stm32f0xx_misc.h" type="1"/>
+    <File name="mbed-lib/common/semihost_api.c" path="common/semihost_api.c" type="1"/>
+    <File name="mbed-lib/common/SoftSerial_rx.cpp" path="common/SoftSerial_rx.cpp" type="1"/>
+    <File name="cmsis_core/core_cm4.h" path="targets/cmsis/core_cm4.h" type="1"/>
+    <File name="mbed-lib/hal/analogout_api.h" path="hal/analogout_api.h" type="1"/>
+    <File name="mbed-lib/common/mbed_interface.c" path="common/mbed_interface.c" type="1"/>
+    <File name="mbed-lib/common/BusInOut.cpp" path="common/BusInOut.cpp" type="1"/>
+    <File name="mbed-lib/api/Ethernet.h" path="api/Ethernet.h" type="1"/>
+    <File name="mbed-lib/api/CallChain.h" path="api/CallChain.h" type="1"/>
+    <File name="mbed-lib/common/rtc_time.c" path="common/rtc_time.c" type="1"/>
+    <File name="mbed-lib/target/cmsis/stm32f0xx_cec.c" path="targets/cmsis/TARGET_DISCO_F051R8/stm32f0xx_cec.c" type="1"/>
+    <File name="mbed-lib/target/cmsis/stm32f0xx_dma.c" path="targets/cmsis/TARGET_DISCO_F051R8/stm32f0xx_dma.c" type="1"/>
+    <File name="mbed-lib/api/BufferedSoftSerial.h" path="api/BufferedSoftSerial.h" type="1"/>
+    <File name="mbed-lib/target/hal/us_ticker.c" path="targets/hal/TARGET_STM/TARGET_DISCO_F051R8/us_ticker.c" type="1"/>
+    <File name="mbed-lib/common/Stream.cpp" path="common/Stream.cpp" type="1"/>
+    <File name="mbed-lib/api/semihost_api.h" path="api/semihost_api.h" type="1"/>
+    <File name="mbed-lib/api/DigitalOut.h" path="api/DigitalOut.h" type="1"/>
+    <File name="mbed-lib/api/SPISlave.h" path="api/SPISlave.h" type="1"/>
+    <File name="cmsis_core/core_cm3.h" path="targets/cmsis/core_cm3.h" type="1"/>
+    <File name="mbed-lib/target/cmsis/stm32f0xx_crc.c" path="targets/cmsis/TARGET_DISCO_F051R8/stm32f0xx_crc.c" type="1"/>
+    <File name="mbed-lib/target/cmsis/stm32f0xx_cec.h" path="targets/cmsis/TARGET_DISCO_F051R8/stm32f0xx_cec.h" type="1"/>
+    <File name="mbed-lib/api/AnalogIn.h" path="api/AnalogIn.h" type="1"/>
+    <File name="mbed-lib/target/hal" path="" type="2"/>
+    <File name="mbed-lib/api/FileSystemLike.h" path="api/FileSystemLike.h" type="1"/>
+    <File name="mbed-lib/hal" path="" type="2"/>
+    <File name="mbed-lib/api/InterruptManager.h" path="api/InterruptManager.h" type="1"/>
+    <File name="mbed-lib/hal/spi_api.h" path="hal/spi_api.h" type="1"/>
+    <File name="mbed-lib/target/cmsis/stm32f0xx_dma.h" path="targets/cmsis/TARGET_DISCO_F051R8/stm32f0xx_dma.h" type="1"/>
+    <File name="mbed-lib/hal/ethernet_api.h" path="hal/ethernet_api.h" type="1"/>
+    <File name="mbed-lib/target/cmsis/cmsis.h" path="targets/cmsis/TARGET_DISCO_F051R8/cmsis.h" type="1"/>
+    <File name="mbed-lib/api/AnalogOut.h" path="api/AnalogOut.h" type="1"/>
+    <File name="mbed-lib/api/Timeout.h" path="api/Timeout.h" type="1"/>
+    <File name="mbed-lib/common/SoftSerial.cpp" path="common/SoftSerial.cpp" type="1"/>
+    <File name="mbed-lib/target/cmsis/stm32f0xx_i2c.c" path="targets/cmsis/TARGET_DISCO_F051R8/stm32f0xx_i2c.c" type="1"/>
+    <File name="mbed-lib/common/Ethernet.cpp" path="common/Ethernet.cpp" type="1"/>
+    <File name="mbed-lib/target/hal/gpio_irq_api.c" path="targets/hal/TARGET_STM/TARGET_DISCO_F051R8/gpio_irq_api.c" type="1"/>
+    <File name="mbed-lib/target/cmsis/stm32f0xx_tim.h" path="targets/cmsis/TARGET_DISCO_F051R8/stm32f0xx_tim.h" type="1"/>
+    <File name="mbed-lib/api/InterruptIn.h" path="api/InterruptIn.h" type="1"/>
+    <File name="mbed-lib/hal/pwmout_api.h" path="hal/pwmout_api.h" type="1"/>
+    <File name="mbed-lib/api/FunctionPointer.h" path="api/FunctionPointer.h" type="1"/>
+    <File name="mbed-lib/target/cmsis/stm32f0xx_dac.h" path="targets/cmsis/TARGET_DISCO_F051R8/stm32f0xx_dac.h" type="1"/>
+    <File name="mbed-lib/target/cmsis/stm32f0xx_tim.c" path="targets/cmsis/TARGET_DISCO_F051R8/stm32f0xx_tim.c" type="1"/>
+    <File name="mbed-lib/api/SPI.h" path="api/SPI.h" type="1"/>
+    <File name="mbed-lib/target/cmsis/stm32f0xx_i2c.h" path="targets/cmsis/TARGET_DISCO_F051R8/stm32f0xx_i2c.h" type="1"/>
+    <File name="mbed-lib/api/mbed_debug.h" path="api/mbed_debug.h" type="1"/>
+    <File name="mbed-lib/target/cmsis/stm32f0xx_dac.c" path="targets/cmsis/TARGET_DISCO_F051R8/stm32f0xx_dac.c" type="1"/>
+    <File name="cmsis_boot/startup/startup_stm32f0xx.s" path="targets/cmsis/TARGET_DISCO_F051R8/TOOLCHAIN_GCC_ARM/startup_stm32f0xx.s" type="1"/>
+    <File name="mbed-lib/api/FileHandle.h" path="api/FileHandle.h" type="1"/>
+    <File name="cmsis_core/core_cmFunc.h" path="targets/cmsis/core_cmFunc.h" type="1"/>
+    <File name="mbed-lib/target/hal/sleep.c" path="targets/hal/TARGET_STM/TARGET_DISCO_F051R8/sleep.c" type="1"/>
+    <File name="mbed-lib/common/pinmap_common.c" path="common/pinmap_common.c" type="1"/>
+    <File name="mbed-lib/target/cmsis/stm32f0xx_conf.h" path="targets/cmsis/TARGET_DISCO_F051R8/stm32f0xx_conf.h" type="1"/>
+    <File name="mbed-lib/hal/analogin_api.h" path="hal/analogin_api.h" type="1"/>
+    <File name="mbed-lib/common/Timeout.cpp" path="common/Timeout.cpp" type="1"/>
+    <File name="mbed-lib/target/cmsis/stm32f0xx_adc.c" path="targets/cmsis/TARGET_DISCO_F051R8/stm32f0xx_adc.c" type="1"/>
+    <File name="mbed-lib/api/DigitalInOut.h" path="api/DigitalInOut.h" type="1"/>
+    <File name="mbed-lib/api/DigitalIn.h" path="api/DigitalIn.h" type="1"/>
+    <File name="mbed-lib/api/SoftSerial_Ticker.h" path="api/SoftSerial_Ticker.h" type="1"/>
+    <File name="mbed-lib/hal/us_ticker_api.h" path="hal/us_ticker_api.h" type="1"/>
+    <File name="mbed-lib/target/cmsis/stm32f0xx_pwr.c" path="targets/cmsis/TARGET_DISCO_F051R8/stm32f0xx_pwr.c" type="1"/>
+    <File name="main.cpp" path="main.cpp" type="1"/>
+    <File name="mbed-lib/common/error.c" path="common/error.c" type="1"/>
+    <File name="mbed-lib" path="" type="2"/>
+    <File name="mbed-lib/api/Timer.h" path="api/Timer.h" type="1"/>
+    <File name="mbed-lib/target/cmsis/stm32f0xx_adc.h" path="targets/cmsis/TARGET_DISCO_F051R8/stm32f0xx_adc.h" type="1"/>
+    <File name="mbed-lib/target" path="" type="2"/>
+    <File name="mbed-lib/target/cmsis/stm32f0xx_exti.c" path="targets/cmsis/TARGET_DISCO_F051R8/stm32f0xx_exti.c" type="1"/>
+    <File name="mbed-lib/common/Timer.cpp" path="common/Timer.cpp" type="1"/>
+    <File name="cmsis_core/core_cm4_simd.h" path="targets/cmsis/core_cm4_simd.h" type="1"/>
+    <File name="mbed-lib/target/cmsis/stm32f0xx_syscfg.h" path="targets/cmsis/TARGET_DISCO_F051R8/stm32f0xx_syscfg.h" type="1"/>
+    <File name="mbed-lib/api/mbed.h" path="api/mbed.h" type="1"/>
+    <File name="cmsis_core/core_cmInstr.h" path="targets/cmsis/core_cmInstr.h" type="1"/>
+    <File name="mbed-lib/common/Buffer.cpp" path="common/Buffer.cpp" type="1"/>
+    <File name="mbed-lib/target/hal/serial_api.c" path="targets/hal/TARGET_STM/TARGET_DISCO_F051R8/serial_api.c" type="1"/>
+    <File name="mbed-lib/common/FilePath.cpp" path="common/FilePath.cpp" type="1"/>
+    <File name="mbed-lib/api/CAN.h" path="api/CAN.h" type="1"/>
+    <File name="cmsis_boot/startup" path="" type="2"/>
+    <File name="mbed-lib/target/cmsis/stm32f0xx_exti.h" path="targets/cmsis/TARGET_DISCO_F051R8/stm32f0xx_exti.h" type="1"/>
+    <File name="mbed-lib/common/I2C.cpp" path="common/I2C.cpp" type="1"/>
+    <File name="mbed-lib/target/hal/pwmout_api.c" path="targets/hal/TARGET_STM/TARGET_DISCO_F051R8/pwmout_api.c" type="1"/>
+    <File name="mbed-lib/hal/rtc_api.h" path="hal/rtc_api.h" type="1"/>
+    <File name="mbed-lib/api/SerialBase.h" path="api/SerialBase.h" type="1"/>
+    <File name="mbed-lib/target/cmsis/stm32f0xx.h" path="targets/cmsis/TARGET_DISCO_F051R8/stm32f0xx.h" type="1"/>
+    <File name="mbed-lib/target/cmsis/stm32f0xx_comp.h" path="targets/cmsis/TARGET_DISCO_F051R8/stm32f0xx_comp.h" type="1"/>
+    <File name="mbed-lib/common/TimerEvent.cpp" path="common/TimerEvent.cpp" type="1"/>
+    <File name="mbed-lib/target/cmsis/stm32f0xx_gpio.c" path="targets/cmsis/TARGET_DISCO_F051R8/stm32f0xx_gpio.c" type="1"/>
+    <File name="mbed-lib/target/cmsis/system_stm32f0xx.h" path="targets/cmsis/TARGET_DISCO_F051R8/system_stm32f0xx.h" type="1"/>
+    <File name="mbed-lib/common/board.c" path="common/board.c" type="1"/>
+    <File name="mbed-lib/api/PortIn.h" path="api/PortIn.h" type="1"/>
+    <File name="mbed-lib/target/hal/i2c_api.c" path="targets/hal/TARGET_STM/TARGET_DISCO_F051R8/i2c_api.c" type="1"/>
+    <File name="mbed-lib/api/I2CSlave.h" path="api/I2CSlave.h" type="1"/>
+    <File name="mbed-lib/common/LocalFileSystem.cpp" path="common/LocalFileSystem.cpp" type="1"/>
+    <File name="mbed-lib/common/InterruptManager.cpp" path="common/InterruptManager.cpp" type="1"/>
+    <File name="mbed-lib/target/hal/gpio_object.h" path="targets/hal/TARGET_STM/TARGET_DISCO_F051R8/gpio_object.h" type="1"/>
+    <File name="mbed-lib/api/Serial.h" path="api/Serial.h" type="1"/>
+    <File name="mbed-lib/common" path="" type="2"/>
+    <File name="mbed-lib/target/hal/objects.h" path="targets/hal/TARGET_STM/TARGET_DISCO_F051R8/objects.h" type="1"/>
+    <File name="mbed-lib/api/platform.h" path="api/platform.h" type="1"/>
+    <File name="mbed-lib/api/Stream.h" path="api/Stream.h" type="1"/>
+    <File name="mbed-lib/api/RawSerial.h" path="api/RawSerial.h" type="1"/>
+    <File name="mbed-lib/target/cmsis/stm32f0xx_flash.c" path="targets/cmsis/TARGET_DISCO_F051R8/stm32f0xx_flash.c" type="1"/>
+    <File name="mbed-lib/common/BufferedSoftSerial.cpp" path="common/BufferedSoftSerial.cpp" type="1"/>
+    <File name="mbed-lib/target/cmsis/stm32f0xx_spi.h" path="targets/cmsis/TARGET_DISCO_F051R8/stm32f0xx_spi.h" type="1"/>
+    <File name="mbed-lib/target/hal/spi_api.c" path="targets/hal/TARGET_STM/TARGET_DISCO_F051R8/spi_api.c" type="1"/>
+    <File name="mbed-lib/target/hal/PinNames.h" path="targets/hal/TARGET_STM/TARGET_DISCO_F051R8/PinNames.h" type="1"/>
+    <File name="mbed-lib/target/cmsis/stm32f0xx_dbgmcu.c" path="targets/cmsis/TARGET_DISCO_F051R8/stm32f0xx_dbgmcu.c" type="1"/>
+    <File name="mbed-lib/common/gpio.c" path="common/gpio.c" type="1"/>
+    <File name="mbed-lib/api/rtc_time.h" path="api/rtc_time.h" type="1"/>
+    <File name="mbed-lib/common/FileBase.cpp" path="common/FileBase.cpp" type="1"/>
+    <File name="mbed-lib/common/wait_api.c" path="common/wait_api.c" type="1"/>
+    <File name="mbed-lib/target/cmsis/stm32f0xx_flash.h" path="targets/cmsis/TARGET_DISCO_F051R8/stm32f0xx_flash.h" type="1"/>
+    <File name="mbed-lib/api/mbed_interface.h" path="api/mbed_interface.h" type="1"/>
+    <File name="mbed-lib/target/hal/rtc_api.c" path="targets/hal/TARGET_STM/TARGET_DISCO_F051R8/rtc_api.c" type="1"/>
+    <File name="mbed-lib/common/SoftSerial_tx.cpp" path="common/SoftSerial_tx.cpp" type="1"/>
+    <File name="mbed-lib/common/us_ticker_api.c" path="common/us_ticker_api.c" type="1"/>
+    <File name="mbed-lib/api/FilePath.h" path="api/FilePath.h" type="1"/>
+    <File name="mbed-lib/api/Buffer.h" path="api/Buffer.h" type="1"/>
+    <File name="mbed-lib/target/cmsis/stm32f0xx_dbgmcu.h" path="targets/cmsis/TARGET_DISCO_F051R8/stm32f0xx_dbgmcu.h" type="1"/>
+    <File name="cmsis_core/core_cm0plus.h" path="targets/cmsis/core_cm0plus.h" type="1"/>
+    <File name="mbed-lib/api/error.h" path="api/error.h" type="1"/>
+    <File name="mbed-lib/common/FileSystemLike.cpp" path="common/FileSystemLike.cpp" type="1"/>
+    <File name="mbed-lib/target/cmsis/stm32f0xx_gpio.h" path="targets/cmsis/TARGET_DISCO_F051R8/stm32f0xx_gpio.h" type="1"/>
+    <File name="mbed-lib/hal/pinmap.h" path="hal/pinmap.h" type="1"/>
+    <File name="mbed-lib/target/cmsis/stm32f0xx_comp.c" path="targets/cmsis/TARGET_DISCO_F051R8/stm32f0xx_comp.c" type="1"/>
+    <File name="mbed-lib/api/LocalFileSystem.h" path="api/LocalFileSystem.h" type="1"/>
+  </Files>
+</Project>
